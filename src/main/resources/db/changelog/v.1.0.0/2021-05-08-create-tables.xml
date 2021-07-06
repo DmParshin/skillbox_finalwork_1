@@ -1,0 +1,11 @@
+<changeSet id="2021-05-08-create-tables" author="DM">
+    <createTable tableName="person">
+        <column name="id" type="int" autoIncrement="true">
+            <constraints nullable="false" primaryKey="true"/>
+        </column>
+        <column name="name" type="varchar(64)"/>
+        <column name="telegram_id" type="int">
+            <constraints unique="true"/>
+        </column>
+    </createTable>
+</changeSet>
