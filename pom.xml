@@ -21,7 +21,7 @@
             <plugin>
                 <groupId>org.liquibase</groupId>
                 <artifactId>liquibase-maven-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>4.3.5</version>
                 <configuration>
                     <propertyFile>src/main/resources/liquibase-maven-plugin.properties</propertyFile>
                     <systemProperties>
@@ -33,7 +33,7 @@
                     <dependency>
                         <groupId>org.liquibase.ext</groupId>
                         <artifactId>liquibase-hibernate5</artifactId>
-                        <version>3.6</version>
+                        <version>4.3.5</version>
                     </dependency>
                     <dependency>
                         <groupId>org.springframework.boot</groupId>
@@ -101,12 +101,13 @@
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
+            <version>4.3.5</version>
         </dependency>
 
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-maven-plugin</artifactId>
-            <version>3.8.1</version>
+            <version>4.3.5</version>
         </dependency>
 
     </dependencies>

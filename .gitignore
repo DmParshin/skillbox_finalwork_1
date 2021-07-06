@@ -1,5 +1,6 @@
 # Default excludes
-#
+# Plugins settings
+.jpb
 
 # Binaries
 *.7z

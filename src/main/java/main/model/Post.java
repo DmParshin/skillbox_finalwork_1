@@ -23,7 +23,6 @@ public class Post {
     @JoinColumn (name="moderator_id")
     private User moderator_id;
 
-
     @ManyToOne (fetch=FetchType.LAZY, cascade=CascadeType.ALL)
     @JoinColumn (name="user_id", nullable = false)
     private User user;

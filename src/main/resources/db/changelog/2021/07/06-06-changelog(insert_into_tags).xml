@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+
+    <changeSet id="1625543958980-1" author="DM (generated)">
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag1');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag2');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag3');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag4');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag5');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag6');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag7');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag8');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag9');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag10');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag11');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag12');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag13');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag14');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag15');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag16');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag17');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag18');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag19');</sql>
+        <sql>INSERT INTO `finalwork1_db`.`tags` (`name`) VALUES ('test_tag20');</sql>
+    </changeSet>
+
+</databaseChangeLog>

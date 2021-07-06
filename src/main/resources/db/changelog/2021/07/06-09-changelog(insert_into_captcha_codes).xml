@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+
+    <changeSet id="1625543958983-1" author="DM (generated)">
+        <sql>INSERT INTO `captcha_codes` (`code`, `secret_code`) VALUES ('9493', '1185'), ('6607', '9529'), ('7314', '7428'), ('7801', '5124'), ('4045', '5573'), ('4882', '4550'), ('2860', '2180'), ('9143', '7181'), ('6872', '4219'), ('6818', '3025'), ('1033', '9143'), ('6843', '8726'), ('4833', '7891'), ('7106', '5454'), ('3075', '9162'), ('8517', '3810'), ('1260', '8302'), ('1818', '5786'), ('7557', '9318'), ('7990', '8042');</sql>
+    </changeSet>
+
+</databaseChangeLog>

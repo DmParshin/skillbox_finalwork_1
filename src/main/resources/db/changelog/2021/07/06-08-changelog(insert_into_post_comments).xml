@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+
+    <changeSet id="1625543958982-1" author="DM (generated)">
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('3', '15', '17', 'От сложного к сложному: создана новая модель искусственного мозга');</sql>
+        <sql>INSERT INTO `post_comments` (`post_id`, `user_id`, `text`) VALUES ('17', '11', 'Климатологи: Тропические леса Бразилии начали не поглощать, а выделять углекислый газ');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('16', '5', '8', 'От сложного к сложному: создана новая модель искусственного мозга');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('2', '9', '6', 'Неинформированные массы мешают меньшинству переубедить большинство');</sql>
+        <sql>INSERT INTO `post_comments` (`post_id`, `user_id`, `text`) VALUES ('18', '20', 'Каждый сотый житель Земли заразился коронавирусом');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('8', '12', '10', 'Как подобрать картину для интерьера');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('8', '12', '8', 'Впервые показана хаотическая динамика популяций в многовидовом сообществе');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('14', '9', '1', 'Климатологи: Тропические леса Бразилии начали не поглощать, а выделять углекислый газ');</sql>
+        <sql>INSERT INTO `post_comments` (`post_id`, `user_id`, `text`) VALUES ('5', '16', 'Зачем нужно сдавать генетические тесты');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('4', '19', '4', 'Впервые показана хаотическая динамика популяций в многовидовом сообществе');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('2', '20', '7', 'Антарктида перестала быть единственным континентом без коронавируса');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('17', '18', '4', 'Великой теореме Эмми Нётер — 100 лет');</sql>
+        <sql>INSERT INTO `post_comments` (`post_id`, `user_id`, `text`) VALUES ('15', '3', 'Каждый сотый житель Земли заразился коронавирусом');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('11', '8', '1', 'Великой теореме Эмми Нётер — 100 лет');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('12', '8', '1', 'Обзор технологий построения плоских сканирующих антенн для наземных терминалов спутниковой связи');</sql>
+        <sql>INSERT INTO `post_comments` (`post_id`, `user_id`, `text`) VALUES ('17', '16', 'Впервые показана хаотическая динамика популяций в многовидовом сообществе');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('17', '15', '3', 'Зачем нужно сдавать генетические тесты');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('12', '14', '1', 'Самые недорогие спортивные авто с пробегом');</sql>
+        <sql>INSERT INTO `post_comments` (`post_id`, `user_id`, `text`) VALUES ('2', '3', 'Как подобрать картину для интерьера');</sql>
+        <sql>INSERT INTO `post_comments` (`parent_id`, `post_id`, `user_id`, `text`) VALUES ('20', '16', '4', 'Неинформированные массы мешают меньшинству переубедить большинство');</sql>
+    </changeSet>
+
+</databaseChangeLog>

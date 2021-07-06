@@ -5,5 +5,13 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
     <include file="db/changelog/2021/07/06-01-changelog(create_tables).xml"/>
+    <include file="db/changelog/2021/07/06-02-changelog(insert_into_global_settings).xml"/>
+    <include file="db/changelog/2021/07/06-03-changelog(insert_into_users).xml"/>
+    <include file="db/changelog/2021/07/06-04-changelog(insert_into_posts).xml"/>
+    <include file="db/changelog/2021/07/06-05-changelog(insert_into_post_votes).xml"/>
+    <include file="db/changelog/2021/07/06-06-changelog(insert_into_tags).xml"/>
+    <include file="db/changelog/2021/07/06-07-changelog(insert_into_tag2post).xml"/>
+    <include file="db/changelog/2021/07/06-08-changelog(insert_into_post_comments).xml"/>
+    <include file="db/changelog/2021/07/06-09-changelog(insert_into_captcha_codes).xml"/>
 
 </databaseChangeLog>

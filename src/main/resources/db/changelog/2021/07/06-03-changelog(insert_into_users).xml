@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+
+    <changeSet id="1625543958977-1" author="DM (generated)">
+        <sql>INSERT INTO `finalwork1_db`.`users` (`name`, `email`, `password`, `code`, `photo`) VALUES ('Ефимова Регина', 'viktor26@example.org', '14aA2j4d', '29608307', 'https://via.placeholder.com/150x150.png'), ('Жданова Любовь', 'sarapov.ulana@example.org', 'PiAzRGJ7', '91100894', 'https://via.placeholder.com/150x150.png'), ('Ковалёва Злата', 'rodion17@example.com', 'vhnjsNHF', '60407791', 'https://via.placeholder.com/150x150.png'), ('Федосеева Светлана', 'eva70@example.com', '1QCDRRco', '33749749', 'https://via.placeholder.com/150x150.png'), ('Одинцов Давид', 'ekolesnikov@example.org', 'nXuzTqWA', '53843814', 'https://via.placeholder.com/150x150.png'), ('Калинина Дина', 'vsevolod.miheev@example.net', 'ynnKMGJ9', '69318264', 'https://via.placeholder.com/150x150.png'), ('Чернов Адам', 'polina.maksimova@example.com', 'vKPE0XF6', '58155821', 'https://via.placeholder.com/150x150.png'), ('Давыдов Денис', 'bragin.antonin@example.org', 'j5eietsg', '79001137', 'https://via.placeholder.com/150x150.png'), ('Блинова Елизавета', 'abragin@example.net', 'uHBdzpdY', '26953665', 'https://via.placeholder.com/150x150.png'), ('Савин Богдан', 'artemeva.galina@example.com', 'lwtt6WEj', '64037546', 'https://via.placeholder.com/150x150.png'), ('Герасимова Надежда', 'zukov.veronika@example.net', 'pjyGrB2T', '86431887', 'https://via.placeholder.com/150x150.png'), ('Копылов Дан', 'izolda37@example.org', '4Qc7knAQ', '21177208', 'https://via.placeholder.com/150x150.png'), ('Лапин Захар', 'nikitina.zinaida@example.net', 'TWmplRbg', '75214178', 'https://via.placeholder.com/150x150.png'), ('Коновалова Софья', 'makar.krylov@example.org', 'rT2deMrW', '90956477', 'https://via.placeholder.com/150x150.png'), ('Архипова Елизавета', 'adanilova@example.net', 'Ap52tMdI', '94583925', 'https://via.placeholder.com/150x150.png'), ('Фомичёв Игорь', 'ignat76@example.org', 'WcYwuUs8', '79937361', 'https://via.placeholder.com/150x150.png'), ('Фокин Август', 'pavel.strelkov@example.net', 'PZKGPjcJ', '50769303', 'https://via.placeholder.com/150x150.png'), ('Устинова Майя', 'ekaterina23@example.org', '3mhH5CqE', '68071422', 'https://via.placeholder.com/150x150.png'), ('Родионов Назар', 'nazar.ermakov@example.net', 'DJd7VwFY', '33634556', 'https://via.placeholder.com/150x150.png'), ('Владимиров Сава', 'lilia28@example.org', 'SXYzJP87', '22670408', 'https://via.placeholder.com/150x150.png');</sql>
+        <sql>UPDATE `finalwork1_db`.`users` SET `is_moderator` = '1' WHERE (`id` = '1');</sql>
+        <sql>UPDATE `finalwork1_db`.`users` SET `is_moderator` = '1' WHERE (`id` = '2');</sql>
+        <sql>UPDATE `finalwork1_db`.`users` SET `is_moderator` = '1' WHERE (`id` = '3');</sql>
+    </changeSet>
+
+</databaseChangeLog>
